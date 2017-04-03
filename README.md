@@ -16,7 +16,7 @@ He said the way to be a better comic was to create better jokes and the way to c
 He revealed a unique calendar system he uses to pressure himself to write. Here's how it works.
 
 He told me to get a big wall calendar that has a whole year on one page and hang it on a prominent wall. The next step was to get a big red magic marker.
-[https://lifehacker.com/281626/jerry-seinfelds-productivity-secret]{source)
 
 ```
 
+[source](https://lifehacker.com/281626/jerry-seinfelds-productivity-secret)
