@@ -5,6 +5,9 @@ Writing is central to science, we spend increasingly excessive amonts of
 time writing documents as grants, and research papers as we progress in
 our carreers. Scientists are writers. 
 
+### My current streak
+![Streak](https://raw.githubusercontent.com/MarcoDVisser/ESWP/master/streakFig.png)
+
 This repro is simply a log to help establish a Seinfeld streak of writing.
 TO excel in something we need to do it everyday. 
 
