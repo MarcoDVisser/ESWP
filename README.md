@@ -9,7 +9,7 @@ our carreers. Scientists are writers.
 ![Streak](https://raw.githubusercontent.com/MarcoDVisser/ESWP/master/streakFig.png)
 
 This repro is simply a log to help establish a Seinfeld streak of writing.
-TO excel in something we need to do it everyday. 
+To excel in something we need to do it everyday. 
 
 ```
 [I] ask Seinfeld if he had any tips for a young comic. What he told me was something that would benefit me a lifetime...
