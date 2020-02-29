@@ -6,7 +6,7 @@
 ## > 2000 words = gold star (write more than one paper section)
 ################################################################################
 
-setwd("/home/marcov/Dropbox/Backup/Work/git/ESWP")
+setwd("~/Dropbox/Backup/Work/git/ESWP")
 
 ## 52 weeks of the past year
 today <- format(Sys.time(), "%Y-%m-%d")
