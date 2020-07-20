@@ -1,0 +1,63 @@
+
+R version 3.6.0 beta (2019-04-11 r76379) -- "Planting of a Tree"
+Copyright (C) 2019 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+
+   Welcome to R!
+
+   Today is Sun Mar  1 16:15:22 2020 
+
+   Please consider that, I am currently executing the following
+%CPU   PID CPUID USER     COMMAND
+ 6.6  2334     5 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 3.8 12877     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 6388 -prefMapSize 211119 -parentBuildID 20200217142647 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 12639 true tab
+ 3.1  2190     4 mvisser  /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 3.1 12958     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 6388 -prefMapSize 211119 -parentBuildID 20200217142647 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 12639 true tab
+ 2.3 12837     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6388 -prefMapSize 211119 -parentBuildID 20200217142647 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 12639 true tab
+18.2 12639     3 mvisser  /usr/lib/firefox/firefox
+ 1.8 12792     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6388 -prefMapSize 211119 -parentBuildID 20200217142647 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 12639 true tab
+ 1.5 29518     5 mvisser  htop
+13.1 12857     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 6388 -prefMapSize 211119 -parentBuildID 20200217142647 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 12639 true tab
+ 0.8 29542     2 mvisser  /usr/bin/emacs25
+ 0.7  2757     6 root     [kworker/6:2-mm_]
+ 0.6  1307     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 21 -isForBrowser -prefsLen 10773 -prefMapSize 211119 -parentBuildID 20200217142647 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 12639 true tab
+ 0.5 12743     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 211119 -parentBuildID 20200217142647 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 12639 true tab
+ 0.4 30726     6 mvisser  /home/mvisser/.dropbox-dist/dropbox-lnx.x86_64-91.4.548/dropbox
+ 0.4 16453     1 mvisser  texmaker
+
+ _________________________________________
+< A day for firm decisions!!!!! Or is it? >
+ -----------------------------------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
+Loading required package: utils
+	 No Stoic Fortunes Installed 
+> 
+> proc.time()
+   user  system elapsed 
+  0.304   0.057   0.344 

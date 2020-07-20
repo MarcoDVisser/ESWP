@@ -1,0 +1,174 @@
+
+R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+Copyright (C) 2020 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+
+   Welcome to R!
+
+   Today is Wed Jul 15 17:23:06 2020 
+
+   Please consider that, I am currently executing the following
+%CPU   PID CPUID USER     COMMAND
+ 9.3 22918     3 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 2.9 27045     0 mvisser  evince /home/mvisser/Dropbox/Backup/Work/Library/Articles/t/Tymen_etal[2016]jec12504.pdf
+ 1.4  1726     3 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 1.2 11276     5 mvisser  /usr/lib/firefox/firefox
+ 0.9 11501     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 8175 -prefMapSize 228211 -parentBuildID 20200630195452 -appdir /usr/lib/firefox/browser 11276 true tab
+ 0.7 27076     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 10422 -prefMapSize 228211 -parentBuildID 20200630195452 -appdir /usr/lib/firefox/browser 11276 true tab
+ 0.7 18593     3 mvisser  htop
+ 0.3 19001     7 mvisser  /usr/lib/virtualbox/VBoxSVC --auto-shutdown
+ 0.3 12496     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 10526 -prefMapSize 228211 -parentBuildID 20200630195452 -appdir /usr/lib/firefox/browser 11276 true tab
+ 0.3 11394     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 7311 -prefMapSize 228211 -parentBuildID 20200630195452 -appdir /usr/lib/firefox/browser 11276 true tab
+ 0.2 18980     3 mvisser  /usr/lib/virtualbox/VirtualBox
+ 0.1  1908     3 mvisser  compton -b
+ 0.1 18996     3 mvisser  /usr/lib/virtualbox/VBoxXPCOMIPCD
+ 0.0   990     6 root     /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+ 0.0   983     3 root     [loop7]
+
+ _________________________________________
+/ Falling in love is a lot like dying.    \
+| You never get to do it enough to become |
+\ good at it.                             /
+ -----------------------------------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
+Loading required package: utils
+
+   -- One day does more for the educated man than the longest life for the
+untaught.
+       (Unknown)
+ 
+
+> ################################################################################
+> ## Writing Streak
+> ## Every week when you write
+> ## > 300 words = bronze star (write an abstract)
+> ## > 1000 words = silver star (write a paper section)
+> ## > 2000 words = gold star (write more than one paper section)
+> ################################################################################
+> 
+> setwd("~/Dropbox/Backup/Work/git/ESWP")
+> 
+> ## 52 weeks of the past year
+> today <- format(Sys.time(), "%Y-%m-%d")
+> thisweek <- as.numeric(format(Sys.time(), "%V"))
+> 
+> ## center weeks on this week
+> wks <- seq(1,52) 
+> weeks <- c(((wks[((thisweek+1):52)])),wks[-((thisweek+1):52)])
+> 
+> 
+> ## a year back
+> d <- as.POSIXlt(as.Date(today))
+> d$year <- d$year-1
+> d <- as.Date(d)
+> 
+> #layout.show(60)
+> 
+> ## get streak data
+> stk <- read.csv("./StreakWeeklyWords.csv")
+> stkDates <- as.Date(stk$Day,format="%d-%m-%Y")
+> 
+> stk <- stk[stkDates>d,]
+> stkDates <- stkDates[stkDates>d]
+> stkWeeks <- as.numeric(format(stkDates,format="%V"))
+> 
+> hits <- star <- numeric(52)
+> 
+> for(i in stkWeeks){
++     tmp <- sum(stk$words[stkWeeks==i])
++ 
++     if(tmp>300){
++         hits[weeks==i] <- TRUE
++         star[weeks==i] <- "goldenrod4"
++         
++     if(tmp>1000){
++         star[weeks==i]<- "grey87"
++     }
++         
++     if(tmp>2000){
++         star[weeks==i] <- "gold2"
++     }
++     }
++ }
+> 
+>    
+> png("./streakFig.png",width=900,height=600)
+> 
+> layout(matrix(1:60,nrow=6,ncol=10,byrow=TRUE))
+> 
+> 
+> par(mar=c(0,0,1,0),xpd=FALSE)
+> for(i in 1:60){
++ 
++     if(i%in%wks){
++ 
++         
++         plot(0,0,ylim=c(-1,1),xlim=c(-1,1),fg="white",xaxt="n",yaxt="n",
++              xlab="",ylab="",main=paste0("Week ",weeks[i]),col="white")
++ 
++         rect(par("usr")[1],par("usr")[3],par("usr")[2],par("usr")[4],
++              col=ifelse(weeks[i]==thisweek,"lightcyan","white"))
++         
++         if(hits[i]){
++ 
++             symbols(0,0,fg=ifelse(star[i]=="gold2","grey60","gold4"),bg=star[i]
++                    ,stars=rbind(rep(c(2,1,1),5)),add=TRUE,
++                     inches=.35)
++         } else {
++ 
++ 
++             points(0,0,col="red",pch=4,cex=5)
++ 
++         }
++     } else {
++ 
++              plot(0,0,ylim=c(-1,1),xlim=c(-1,1),fg="white",xaxt="n",yaxt="n",
++                   xlab="",ylab="",main="",col="white")
++ 
++ 
++     
++     if(i==55) {
++ 
++         par(xpd=NA)
++ 
++         legend("top",col=c("goldenrod4","grey87","gold2"),
++                     pch=16,legend=c("> 300 words","> 1000 words","> 2000 words")
++                    ,bty="n",cex=2.5) }
++ 
++     }
++ }
+>         par(xpd=TRUE)
+> 
+> dev.off()
+null device 
+          1 
+> 
+> proc.time()
+   user  system elapsed 
+  3.145   0.453   3.469 
