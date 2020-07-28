@@ -22,31 +22,33 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Wed Jul 15 17:23:06 2020 
+   Today is Tue Jul 28 11:41:47 2020 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
- 9.3 22918     3 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 2.9 27045     0 mvisser  evince /home/mvisser/Dropbox/Backup/Work/Library/Articles/t/Tymen_etal[2016]jec12504.pdf
- 1.4  1726     3 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 1.2 11276     5 mvisser  /usr/lib/firefox/firefox
- 0.9 11501     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 8175 -prefMapSize 228211 -parentBuildID 20200630195452 -appdir /usr/lib/firefox/browser 11276 true tab
- 0.7 27076     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 10422 -prefMapSize 228211 -parentBuildID 20200630195452 -appdir /usr/lib/firefox/browser 11276 true tab
- 0.7 18593     3 mvisser  htop
- 0.3 19001     7 mvisser  /usr/lib/virtualbox/VBoxSVC --auto-shutdown
- 0.3 12496     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 10526 -prefMapSize 228211 -parentBuildID 20200630195452 -appdir /usr/lib/firefox/browser 11276 true tab
- 0.3 11394     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 7311 -prefMapSize 228211 -parentBuildID 20200630195452 -appdir /usr/lib/firefox/browser 11276 true tab
- 0.2 18980     3 mvisser  /usr/lib/virtualbox/VirtualBox
- 0.1  1908     3 mvisser  compton -b
- 0.1 18996     3 mvisser  /usr/lib/virtualbox/VBoxXPCOMIPCD
- 0.0   990     6 root     /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
- 0.0   983     3 root     [loop7]
+ 6.4 28394     0 mvisser  pavucontrol
+ 6.2  2898     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 8147 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 5.0 30256     3 mvisser  /opt/zoom/zoom
+50.1 26293     0 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 4.5  2165     5 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 3.2  1897     2 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 3.1 26664     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 37 -isForBrowser -prefsLen 10684 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 2.7  2668     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 7245 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 2.6 15349     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 35 -isForBrowser -prefsLen 10879 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 2.3  2500     4 mvisser  htop
+ 1.3 13234     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 30 -isForBrowser -prefsLen 10744 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 1.1 27413     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 38 -isForBrowser -prefsLen 10930 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+10.9  2517     2 mvisser  /usr/lib/firefox/firefox
+ 1.0  3247     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 8241 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 0.9 10478     0 mvisser  clementine
 
- _________________________________________
-/ Falling in love is a lot like dying.    \
-| You never get to do it enough to become |
-\ good at it.                             /
- -----------------------------------------
+ ________________________________________
+/ Just because I turn down a contract on \
+| a guy doesn't mean he isn't going to   |
+| get hit.                               |
+|                                        |
+\ -- Joey                                /
+ ----------------------------------------
    \
     \
         .--.
@@ -59,8 +61,7 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- One day does more for the educated man than the longest life for the
-untaught.
+   -- The best cure for anger is delay.
        (Unknown)
  
 
@@ -171,4 +172,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  3.145   0.453   3.469 
+  0.396   0.100   0.474 
