@@ -22,32 +22,29 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Wed Jul 29 14:05:19 2020 
+   Today is Wed Jul 29 14:42:01 2020 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
- 7.0 28394     5 mvisser  pavucontrol
- 6.7  2165     1 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 6.5  2898     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 8147 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
- 6.1  5791     3 mvisser  /opt/zoom/zoom
- 5.0  1897     0 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
-47.8 26293     0 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 2.9  2668     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 7245 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 7.0 28394     4 mvisser  pavucontrol
+ 6.8  2165     0 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 6.5  2898     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 8147 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 6.1  5791     6 mvisser  /opt/zoom/zoom
+ 5.0  1897     4 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+48.6 26293     2 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 2.9  2668     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 7245 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
  2.8 15349     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 35 -isForBrowser -prefsLen 10879 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
- 2.7  2500     3 mvisser  htop
- 2.0  3247     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 8241 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
- 1.7 26664     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 37 -isForBrowser -prefsLen 10684 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
- 1.7  2116     2 mvisser  compton -b
- 1.4 13234     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 30 -isForBrowser -prefsLen 10744 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
-11.0  2517     5 mvisser  /usr/lib/firefox/firefox
- 1.0  8929     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 15 -isForBrowser -prefsLen 9951 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 2.7  2500     5 mvisser  htop
+ 2.0  3247     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 8241 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 1.7 26664     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 37 -isForBrowser -prefsLen 10684 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+ 1.7  2116     7 mvisser  compton -b
+ 1.4 13234     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 30 -isForBrowser -prefsLen 10744 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
+11.1  2517     2 mvisser  /usr/lib/firefox/firefox
+ 1.0  8929     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 15 -isForBrowser -prefsLen 9951 -prefMapSize 228872 -parentBuildID 20200708170202 -appdir /usr/lib/firefox/browser 2517 true tab
 
- __________________________________
-/  No one goes to that restaurant  \
-| anymore-it's always too crowded. |
-|                                  |
-\ (attributed to Yogi Berra)       /
- ----------------------------------
+ ______________________
+< You might have mail. >
+ ----------------------
    \
     \
         .--.
@@ -60,8 +57,8 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- If unwilling to rise in the morning, say to thyself, 'I awake to do the
-work of a man.'
+   -- He is best and purest who pardons others as if he sinned himself daily,
+but avoids sinning as if he never pardoned.
        (Unknown)
  
 
@@ -172,4 +169,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.438   0.131   0.705 
+  0.470   0.091   0.620 
