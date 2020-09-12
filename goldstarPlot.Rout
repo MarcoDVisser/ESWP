@@ -22,30 +22,39 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Tue Aug 11 15:16:19 2020 
+   Today is Sat Sep 12 16:43:11 2020 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
- 7.7  4070     5 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
-70.5  5965     0 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 5.9  4852     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 7744 -prefMapSize 230545 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 4658 true tab
- 5.4  4319     3 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 4.6  4623     0 mvisser  pavucontrol
- 4.5  5789     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 8682 -prefMapSize 230545 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 4658 true tab
- 3.1  4255     3 mvisser  compton -b
- 2.4  4805     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6908 -prefMapSize 230545 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 4658 true tab
- 2.4  4640     1 mvisser  htop
- 2.1  4776     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 176 -prefMapSize 230545 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 4658 true tab
- 1.8  9961     5 mvisser  /usr/lib/slack/slack --type=renderer --autoplay-policy=no-user-gesture-required --force-color-profile=srgb --field-trial-handle=15381053779553064187,8459383569368802274,131072 --enable-features=WebComponentsV0Enabled --disable-features=HardwareMediaKeyHandling,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns --lang=en-US --enable-crash-reporter --global-crash-keys=_companyName=Slack Technologies,_productName=Slack,_version=4.8.0 --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --bypasscsp-schemes=slack-resources,slack-sounds,slack-webapp-dev --cors-schemes=slack-resources,slack-sounds,slack-webapp-dev --fetch-schemes=slack-resources,slack-sounds,slack-webapp-dev --service-worker-schemes=slack-resources,slack-sounds,slack-webapp-dev --app-path=/usr/lib/slack/resources/app.asar --enable-sandbox --native-window-open --preload=/usr/lib/slack/resources/app.asar/dist/preload.bundle.js --context-isolation --background-color=#FFFFFF --enable-blink-features=EventTiming --enable-spellcheck --enable-websql --disable-electron-site-instance-ov
- 1.5 11618     7 mvisser  /usr/bin/python3 /usr/bin/blueman-manager
-11.4  4658     3 mvisser  /usr/lib/firefox/firefox
- 1.0  6087     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 11 -isForBrowser -prefsLen 8682 -prefMapSize 230545 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 4658 true tab
-10.1 12701     6 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
+71.3  4906     5 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 5.7  4326     1 mvisser  /usr/lib/firefox/firefox
+ 5.4 10354     6 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/Library/timemanagement/timeManagement.ods --splash-pipe=5
+ 5.3  8408     0 mvisser  pavucontrol
+ 4.9  3788     4 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 3.8  4032     4 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 3.7  4561     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 8025 -prefMapSize 234266 -parentBuildID 20200831163820 -appdir /usr/lib/firefox/browser 4326 true tab
+ 2.1 10612     3 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
+ 1.6  4509     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 7648 -prefMapSize 234266 -parentBuildID 20200831163820 -appdir /usr/lib/firefox/browser 4326 true tab
+ 1.1  3988     4 mvisser  /home/mvisser/.dropbox-dist/dropbox-lnx.x86_64-105.4.651/dropbox
+ 1.0  9842     3 mvisser  evince /home/mvisser/Dropbox/Backup/Work/Manuscripts/LianasFromSpace/figures/Fig4.pdf
+ 1.0  4733     3 mvisser  /usr/lib/virtualbox/VBoxSVC --auto-shutdown
+ 0.8  4448     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6952 -prefMapSize 234266 -parentBuildID 20200831163820 -appdir /usr/lib/firefox/browser 4326 true tab
+ 0.7  4849     0 mvisser  /usr/lib/slack/slack --type=renderer --autoplay-policy=no-user-gesture-required --force-color-profile=srgb --field-trial-handle=4248977874808652741,12188743191719292334,131072 --enable-features=WebComponentsV0Enabled --disable-features=HardwareMediaKeyHandling,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns --lang=en-US --enable-crash-reporter --global-crash-keys=_companyName=Slack Technologies,_productName=Slack,_version=4.8.0 --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --bypasscsp-schemes=slack-resources,slack-sounds,slack-webapp-dev --cors-schemes=slack-resources,slack-sounds,slack-webapp-dev --fetch-schemes=slack-resources,slack-sounds,slack-webapp-dev --service-worker-schemes=slack-resources,slack-sounds,slack-webapp-dev --app-path=/usr/lib/slack/resources/app.asar --enable-sandbox --native-window-open --preload=/usr/lib/slack/resources/app.asar/dist/preload.bundle.js --context-isolation --background-color=#FFFFFF --enable-blink-features=EventTiming --enable-spellcheck --enable-websql --disable-electron-site-instance-
+ 0.7  3971     2 mvisser  compton -b
 
- _______________________________________
-/ When you are working hard, get up and \
-\ retch every so often.                 /
- ---------------------------------------
+ _________________________________________
+/ The countdown had stalled at 'T' minus  \
+| 69 seconds when Desiree, the first      |
+| female ape to go up in space, winked at |
+| me slyly and pouted her thick, rubbery  |
+| lips unmistakably -- the first of many  |
+| such advances during what would prove   |
+| to be the longest, and most memorable,  |
+| space voyage of my career.              |
+|                                         |
+| -- Winning sentence, 1985 Bulwer-Lytton |
+\ bad fiction contest.                    /
+ -----------------------------------------
    \
     \
         .--.
@@ -58,8 +67,8 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- "The willing are led by fate, the reluctant dragged. "
-       (Cleanthes)
+   -- The happiness of your life depends upon the quality of your thoughts.
+       (Marcus Aurelius)
  
 
 > ################################################################################
@@ -169,4 +178,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.408   0.089   0.579 
+  0.394   0.077   0.435 
