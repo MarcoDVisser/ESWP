@@ -22,32 +22,29 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Sun Sep 13 11:08:17 2020 
+   Today is Sat Oct  3 10:01:28 2020 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
-67.3  4436     7 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 6.0  3209     0 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 4.1  5607     2 mvisser  /usr/lib/firefox/firefox -contentproc -parentBuildID 20200831163820 -prefsLen 9109 -prefMapSize 234568 -appdir /usr/lib/firefox/browser 3851 true rdd
- 3.8  7251     3 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/Library/timemanagement/timeManagement.ods --splash-pipe=5
- 2.9  4979     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 9081 -prefMapSize 234568 -parentBuildID 20200831163820 -appdir /usr/lib/firefox/browser 3851 true tab
- 2.7  7699     1 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
- 2.4  3503     3 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 2.4  3455     7 mvisser  /home/mvisser/.dropbox-dist/dropbox-lnx.x86_64-105.4.651/dropbox
-23.1  5797     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 9109 -prefMapSize 234568 -parentBuildID 20200831163820 -appdir /usr/lib/firefox/browser 3851 true tab
- 2.1  5091     6 mvisser  emacs
- 1.9  5248     2 mvisser  /usr/lib/R/bin/exec/R
- 1.7  6880     0 mvisser  nautilus --new-window
- 1.6  5118     7 mvisser  evince FiguresAndTables.pdf
- 1.5  6000     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 14 -isForBrowser -prefsLen 9109 -prefMapSize 234568 -parentBuildID 20200831163820 -appdir /usr/lib/firefox/browser 3851 true tab
-12.4  3851     0 mvisser  /usr/lib/firefox/firefox
+ 8.7  4035     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6980 -prefMapSize 234874 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3909 true tab
+ 8.4  3573     0 mvisser  /home/mvisser/.dropbox-dist/dropbox-lnx.x86_64-106.4.368/dropbox
+ 8.3  4180     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 9920 -prefMapSize 234874 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3909 true tab
+ 7.3  3321     2 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 6.4  4667     6 mvisser  /usr/lib/slack/slack --type=renderer --autoplay-policy=no-user-gesture-required --force-color-profile=srgb --field-trial-handle=4204966833611595065,6727983258903566609,131072 --enable-features=WebComponentsV0Enabled --disable-features=HardwareMediaKeyHandling,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns --lang=en-US --enable-crash-reporter --global-crash-keys=_companyName=Slack Technologies,_productName=Slack,_version=4.8.0 --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --bypasscsp-schemes=slack-resources,slack-sounds,slack-webapp-dev --cors-schemes=slack-resources,slack-sounds,slack-webapp-dev --fetch-schemes=slack-resources,slack-sounds,slack-webapp-dev --service-worker-schemes=slack-resources,slack-sounds,slack-webapp-dev --app-path=/usr/lib/slack/resources/app.asar --enable-sandbox --native-window-open --preload=/usr/lib/slack/resources/app.asar/dist/preload.bundle.js --context-isolation --background-color=#FFFFFF --enable-blink-features=EventTiming --enable-spellcheck --enable-websql --disable-electron-site-instance-o
+ 5.9  4858     7 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
+ 3.4  4734     5 mvisser  nautilus --new-window
+ 3.1  3969     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 234874 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3909 true tab
+ 2.8  5347     0 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
+ 2.3  4317     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 10666 -prefMapSize 234874 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3909 true tab
+ 2.2  4599     4 mvisser  /usr/lib/slack/slack
+17.3  3909     5 mvisser  /usr/lib/firefox/firefox
+13.5  4151     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 9920 -prefMapSize 234874 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3909 true tab
+ 126  4524     7 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 1.1  2964     5 gdm      /usr/bin/gnome-shell
 
- ___________________________________
-/ The shortest distance between two \
-| points is under construction.     |
-|                                   |
-\ -- Noelie Alito                   /
- -----------------------------------
+ _________________________________
+< The eyes of taxes are upon you. >
+ ---------------------------------
    \
     \
         .--.
@@ -60,8 +57,9 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- No one drives away vice, until in its place he accepts wisdom.
-       (Unknown)
+   -- "The object of life is not to be on the side of the majority, but to
+escape finding oneself in the ranks of the insane."
+       (Marcus Aurelius)
  
 
 > ################################################################################
@@ -171,4 +169,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.430   0.040   0.434 
+  0.403   0.080   0.553 
