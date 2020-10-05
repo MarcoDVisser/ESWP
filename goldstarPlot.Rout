@@ -22,51 +22,60 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Sat Oct  3 14:19:07 2020 
+   Today is Mon Oct  5 17:30:39 2020 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
-88.4  4524     6 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 2.6  3321     1 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 1.8  3909     1 mvisser  /usr/lib/firefox/firefox
- 1.2  4151     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 9920 -prefMapSize 234874 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3909 true tab
- 1.1  4503     3 mvisser  /usr/lib/virtualbox/VBoxSVC --auto-shutdown
- 0.7  4498     5 mvisser  /usr/lib/virtualbox/VBoxXPCOMIPCD
- 0.6  4484     2 mvisser  /usr/lib/virtualbox/VirtualBox
- 0.6  4180     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 9920 -prefMapSize 234874 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3909 true tab
- 0.5  4035     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6980 -prefMapSize 234874 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3909 true tab
- 0.4  3573     0 mvisser  /home/mvisser/.dropbox-dist/dropbox-lnx.x86_64-106.4.368/dropbox
- 0.3  3559     4 mvisser  compton -b
- 0.2  4317     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 10666 -prefMapSize 234874 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3909 true tab
- 0.1   940     5 root     /usr/sbin/NetworkManager --no-daemon
- 0.1  6253     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 14 -isForBrowser -prefsLen 11652 -prefMapSize 234874 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3909 true tab
- 0.1  4858     3 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
+ 8.8 16974     5 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
+ 7.7  4263     2 mvisser  /usr/lib/firefox/firefox
+64.6  5207     1 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 5.3  3379     2 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 4.8  4490     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 7758 -prefMapSize 234715 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 4263 true tab
+ 4.7  3637     3 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 3.5  4426     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 7664 -prefMapSize 234715 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 4263 true tab
+31.7  9337     4 mvisser  /opt/zoom/zoom
+ 2.8 17017     5 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
+ 1.6 15393     0 mvisser  /usr/bin/python3 /usr/bin/blueman-manager
+ 1.1  4379     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6838 -prefMapSize 234715 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 4263 true tab
+ 1.1  3571     0 mvisser  compton -b
+ 1.1 13626     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 53 -isForBrowser -prefsLen 11629 -prefMapSize 234715 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 4263 true tab
+ 1.0 10972     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 43 -isForBrowser -prefsLen 11765 -prefMapSize 234715 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 4263 true tab
+ 0.9  5185     4 mvisser  /usr/lib/virtualbox/VBoxSVC --auto-shutdown
 
  _________________________________________
-/  It's grad exam time... COMPUTER        \
-| SCIENCE                                 |
+/  SEMINAR ANNOUNCEMENT                   \
 |                                         |
-| Inside your desk you'll find a listing  |
-| of the DEC/VMS operating system in IBM  |
-| 1710 machine code. Show what changes    |
-| are necessary to convert this code into |
-| a UNIX Berkeley 7 operating system.     |
-| Prove that these fixes are bug free and |
-| run correctly. You should gain at least |
-| 150% efficiency in the new system. (You |
-| should take no more than 10 minutes on  |
-| this question.)                         |
+| Title: Are Frogs Turing Compatible?     |
+| Speaker: Don "The Lion" Knuth           |
 |                                         |
-| MATHEMATICS                             |
+| ABSTRACT                                |
 |                                         |
-| If X equals PI times R^2, construct a   |
-| formula showing how long it would take  |
-| a fire ant to drill a hole through a    |
-| dill pickle, if the length-girth ratio  |
-| of the ant to the pickle were 98.17:1.  |
+| Several researchers at the University   |
+| of Louisiana have been studying the     |
+| computing power of various amphibians,  |
+| frogs in particular. The problem of     |
+| frog computability has become a         |
+| critical issue that ranges across all   |
+| areas of computer science. It has been  |
+| shown that anything computable by an    |
+| amphi- bian community in a fixed-size   |
+| pond is computable by a frog in the     |
+| same-size pond -- that is to say, frogs |
+| are Pond-space complete. We will show   |
+| that there is a log-space, polywog-time |
+| reduction from any Turing machine       |
+| program to a frog. We will suggest      |
+| these represent a proper subset of      |
+| frog-computable functions.              |
 |                                         |
-| GENERAL KNOWLEDGE Describe the          |
-\ Universe. Give three examples.          /
+| This is not just a                      |
+| let's-see-how-far-those-frogs-can-jump  |
+| seminar. This is only for hardcore      |
+| amphibian-computation people and their  |
+| colleagues.                             |
+|                                         |
+| Refreshments will be served. Music will |
+\ be played.                              /
  -----------------------------------------
    \
     \
@@ -80,9 +89,8 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- "Make a decision to quit thinking of things as insulting, and you anger
-immediately disappears."
-       (Marcus Aurelius)
+   -- It is base to be outdone in kindness.
+       (Unknown)
  
 
 > ################################################################################
@@ -192,4 +200,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.395   0.040   0.421 
+  0.399   0.070   0.486 
