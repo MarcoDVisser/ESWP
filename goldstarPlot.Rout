@@ -22,67 +22,29 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Tue Oct  6 16:07:42 2020 
+   Today is Wed Oct  7 16:34:04 2020 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
- 8.4 12446     0 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
-80.6  4116     7 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 7.0  3734     6 mvisser  /usr/lib/firefox/firefox
- 5.8  7376     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 16 -isForBrowser -prefsLen 10983 -prefMapSize 234844 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3734 true tab
- 4.4  3167     1 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 4.0  3946     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 7576 -prefMapSize 234844 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3734 true tab
- 3.5  3414     6 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 1.9  8900     0 mvisser  /usr/lib/R/bin/exec/R
- 1.4 12501     4 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
- 1.1  3882     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6976 -prefMapSize 234844 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3734 true tab
- 0.9  4095     1 mvisser  /usr/lib/virtualbox/VBoxSVC --auto-shutdown
- 0.7  3369     0 mvisser  /home/mvisser/.dropbox-dist/dropbox-lnx.x86_64-106.4.368/dropbox
- 0.6  4090     4 mvisser  /usr/lib/virtualbox/VBoxXPCOMIPCD
- 0.6  4076     2 mvisser  /usr/lib/virtualbox/VirtualBox
- 0.4  3355     7 mvisser  compton -b
+ 9.0  7687     7 mvisser  /opt/zoom/zoom zoommtg://princeton.zoom.us/join?action=join&confno=93581965959&zc=0&mcv=0.92.11227.0929&confid=dXNzPTA5eFdESElud1NxWlEwMlBHSmdjMkpzdDEtZmUyLV8tbHB5UVVTYno1MFFZREFXWGtMM3hBYmlISGZha0F5MWl3b094dVc0ZGZjQlhlUXFoN21NRVBtSkV3UGdTLmR2dk1nSkZfVlFEWTQwc1kmdGlkPTg3ODUwMTdiN2QxYzRiMDY5Y2UxM2IyNTJlMTdiNGIw&browser=firefox&t=1602085080277
+84.9  4478     6 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 6.3  3891     1 mvisser  /usr/lib/firefox/firefox
+ 5.9  3172     6 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 4.5  4155     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 8599 -prefMapSize 234666 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3891 true tab
+ 4.2  4186     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 9718 -prefMapSize 234666 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3891 true tab
+ 2.6  3411     4 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 2.0  8301     5 mvisser  clementine
+ 1.5 10367     2 mvisser  /home/mvisser/.dropbox-dist/dropbox-lnx.x86_64-107.4.443/dropbox
+ 1.4  3357     2 mvisser  compton -b
+ 1.2 14220     1 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
+ 1.1  4293     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 9718 -prefMapSize 234666 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3891 true tab
+ 0.9  4457     0 mvisser  /usr/lib/virtualbox/VBoxSVC --auto-shutdown
+ 0.8  1305     2 root     [irq/144-nvidia]
+ 0.7  7852     3 mvisser  /usr/lib/slack/slack --type=renderer --autoplay-policy=no-user-gesture-required --force-color-profile=srgb --field-trial-handle=307274902729192918,6985203245233664442,131072 --enable-features=WebComponentsV0Enabled --disable-features=HardwareMediaKeyHandling,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns --lang=en-US --enable-crash-reporter --global-crash-keys=_companyName=Slack Technologies,_productName=Slack,_version=4.8.0 --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --bypasscsp-schemes=slack-resources,slack-sounds,slack-webapp-dev --cors-schemes=slack-resources,slack-sounds,slack-webapp-dev --fetch-schemes=slack-resources,slack-sounds,slack-webapp-dev --service-worker-schemes=slack-resources,slack-sounds,slack-webapp-dev --app-path=/usr/lib/slack/resources/app.asar --enable-sandbox --native-window-open --preload=/usr/lib/slack/resources/app.asar/dist/preload.bundle.js --context-isolation --background-color=#FFFFFF --enable-blink-features=EventTiming --enable-spellcheck --enable-websql --disable-electron-site-instance-over
 
  _________________________________________
-/ Upon the hearth the fire is red,        \
-| Beneath the roof there is a bed; But    |
-| not yet weary are our feet, Still round |
-| the corner we may meet A sudden tree or |
-| standing stone That none have seen but  |
-| we alone. Still round the corner there  |
-| may wait                                |
-|                                         |
-| Tree and flower and leaf and grass, A   |
-| new road or a secret gate,              |
-|                                         |
-| Let them pass! Let them pass! And       |
-| though we pass them by today            |
-|                                         |
-| Hill and water under sky, Tomorrow we   |
-| may come this way                       |
-|                                         |
-| Pass them by! Pass them by! And take    |
-| the hidden paths that run               |
-|                                         |
-| Towards the Moon or to the Sun, Home is |
-| behind, the world ahead, Apple, thorn,  |
-| and nut and sloe, And there are many    |
-| paths to tread Let them go! Let them    |
-| go! Through shadows to the edge of      |
-| night, Sand and stone and pool and      |
-| dell, Until the stars are all alight.   |
-| Fare you well! Fare you well! Then      |
-| world behind and home ahead, We'll      |
-| wander back to home and bed.            |
-|                                         |
-| Mist and twilight, cloud and shade,     |
-|                                         |
-| Away shall fade! Away shall fade!       |
-|                                         |
-| Fire and lamp, and meat and bread,      |
-|                                         |
-| And then to bed! And then to bed!       |
-|                                         |
-\ -- J. R. R. Tolkien                     /
+/ The only person who always got his work \
+\ done by Friday was Robinson Crusoe.     /
  -----------------------------------------
    \
     \
@@ -96,7 +58,8 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- Virtue may be born in any place.
+   -- The possessor of all things else may need a friend to tell him the truth,
+and free him from the conspiracy of falsehood.
        (Unknown)
  
 
@@ -207,4 +170,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.393   0.057   0.430 
+  0.427   0.041   0.556 
