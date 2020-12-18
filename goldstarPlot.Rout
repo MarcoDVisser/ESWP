@@ -22,30 +22,32 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Wed Oct  7 16:34:04 2020 
+   Today is Fri Dec  4 17:16:42 2020 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
- 9.0  7687     7 mvisser  /opt/zoom/zoom zoommtg://princeton.zoom.us/join?action=join&confno=93581965959&zc=0&mcv=0.92.11227.0929&confid=dXNzPTA5eFdESElud1NxWlEwMlBHSmdjMkpzdDEtZmUyLV8tbHB5UVVTYno1MFFZREFXWGtMM3hBYmlISGZha0F5MWl3b094dVc0ZGZjQlhlUXFoN21NRVBtSkV3UGdTLmR2dk1nSkZfVlFEWTQwc1kmdGlkPTg3ODUwMTdiN2QxYzRiMDY5Y2UxM2IyNTJlMTdiNGIw&browser=firefox&t=1602085080277
-84.9  4478     6 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 6.3  3891     1 mvisser  /usr/lib/firefox/firefox
- 5.9  3172     6 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 4.5  4155     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 8599 -prefMapSize 234666 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3891 true tab
- 4.2  4186     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 9718 -prefMapSize 234666 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3891 true tab
- 2.6  3411     4 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 2.0  8301     5 mvisser  clementine
- 1.5 10367     2 mvisser  /home/mvisser/.dropbox-dist/dropbox-lnx.x86_64-107.4.443/dropbox
- 1.4  3357     2 mvisser  compton -b
- 1.2 14220     1 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
- 1.1  4293     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 9718 -prefMapSize 234666 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 3891 true tab
- 0.9  4457     0 mvisser  /usr/lib/virtualbox/VBoxSVC --auto-shutdown
- 0.8  1305     2 root     [irq/144-nvidia]
- 0.7  7852     3 mvisser  /usr/lib/slack/slack --type=renderer --autoplay-policy=no-user-gesture-required --force-color-profile=srgb --field-trial-handle=307274902729192918,6985203245233664442,131072 --enable-features=WebComponentsV0Enabled --disable-features=HardwareMediaKeyHandling,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns --lang=en-US --enable-crash-reporter --global-crash-keys=_companyName=Slack Technologies,_productName=Slack,_version=4.8.0 --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --bypasscsp-schemes=slack-resources,slack-sounds,slack-webapp-dev --cors-schemes=slack-resources,slack-sounds,slack-webapp-dev --fetch-schemes=slack-resources,slack-sounds,slack-webapp-dev --service-worker-schemes=slack-resources,slack-sounds,slack-webapp-dev --app-path=/usr/lib/slack/resources/app.asar --enable-sandbox --native-window-open --preload=/usr/lib/slack/resources/app.asar/dist/preload.bundle.js --context-isolation --background-color=#FFFFFF --enable-blink-features=EventTiming --enable-spellcheck --enable-websql --disable-electron-site-instance-over
+ 5.8 19584     5 mvisser  /usr/lib/firefox/firefox
+ 5.6  2407     2 mvisser  /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess --service-pipe-token=1550665996728145828 --lang=en-US --app-path=/usr/share/teams/resources/app.asar --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) MicrosoftTeams-Preview/1.3.00.16851 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36 --node-integration=false --webview-tag=false --no-sandbox --preload=/usr/share/teams/resources/app.asar/lib/pluginhost/preload.js --disable-remote-module --background-color=#fff --electron-shared-settings=eyJjci5jb21wYW55IjoiTWljcm9zb2Z0IiwiY3IuZHVtcHMiOiIvdG1wL2NvbS5taWNyb3NvZnQudGVhbXMubGludXggQ3Jhc2hlcyIsImNyLmVuYWJsZWQiOnRydWUsImNyLnByb2R1Y3QiOiJjb20ubWljcm9zb2Z0LnRlYW1zLmxpbnV4IiwiY3Iuc2Vzc2lvbiI6ImRlc2t0b3AtYTI2NDYyNzgtNGFmMy00NTQzLTlkM2UtMTYzYzU0NGEwMzFmIiwiY3IudXJsIjoiaHR0cHM6Ly9yaW5rLmhvY2tleWFwcC5uZXQvYXBpLzIvYXBwcy81MDQ5M2M4OThjMWY0ZmU1OWExODNmNGI0OWJmZTZiYS9jcmFzaGVzL3VwbG9hZCIsImNyLnZlcnNpb24iOiIxLjMuMDAuMTY4NTEifQ== --num-raster-threads=4 --
+ 4.9 14733     1 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
+ 4.8 20285     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 8781 -prefMapSize 245626 -parentBuildID 20201112153044 -appdir /usr/lib/firefox/browser 19584 true tab
+44.8 10278     3 mvisser  /usr/lib/R/bin/exec/R
+44.1 27691     7 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 2.8  2232     2 mvisser  /usr/share/teams/teams
+ 2.8 12050     0 mvisser  htop
+ 2.5  2352     3 mvisser  /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess --service-pipe-token=1518479828335064519 --lang=en-US --app-path=/usr/share/teams/resources/app.asar --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) MicrosoftTeams-Preview/1.3.00.16851 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36 --node-integration=false --webview-tag=true --no-sandbox --preload=/usr/share/teams/resources/app.asar/lib/renderer/preload.js --disable-remote-module --background-color=#fff --electron-shared-settings=eyJjci5jb21wYW55IjoiTWljcm9zb2Z0IiwiY3IuZHVtcHMiOiIvdG1wL2NvbS5taWNyb3NvZnQudGVhbXMubGludXggQ3Jhc2hlcyIsImNyLmVuYWJsZWQiOnRydWUsImNyLnByb2R1Y3QiOiJjb20ubWljcm9zb2Z0LnRlYW1zLmxpbnV4IiwiY3Iuc2Vzc2lvbiI6ImRlc2t0b3AtYTI2NDYyNzgtNGFmMy00NTQzLTlkM2UtMTYzYzU0NGEwMzFmIiwiY3IudXJsIjoiaHR0cHM6Ly9yaW5rLmhvY2tleWFwcC5uZXQvYXBpLzIvYXBwcy81MDQ5M2M4OThjMWY0ZmU1OWExODNmNGI0OWJmZTZiYS9jcmFzaGVzL3VwbG9hZCIsImNyLnZlcnNpb24iOiIxLjMuMDAuMTY4NTEifQ== --num-raster-threads=4 --ena
+ 2.4 19858     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 8603 -prefMapSize 245626 -parentBuildID 20201112153044 -appdir /usr/lib/firefox/browser 19584 true tab
+ 1.7  5087     4 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+15.6 26876     3 mvisser  /opt/zoom/zoom
+ 1.5 10465     2 mvisser  emacs
+ 1.4  4838     2 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 1.1  6573     6 mvisser  htop
 
- _________________________________________
-/ The only person who always got his work \
-\ done by Friday was Robinson Crusoe.     /
- -----------------------------------------
+ _______________________________________
+/ While you're chewing, think of STEVEN \
+| SPIELBERG'S bank account ... his will |
+| have the same effect as two "STARCH   |
+\ BLOCKERS"!                            /
+ ---------------------------------------
    \
     \
         .--.
@@ -58,8 +60,8 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- The possessor of all things else may need a friend to tell him the truth,
-and free him from the conspiracy of falsehood.
+   -- If anything is possible for man, and peculiar to him, think that this can
+be attained by thee.
        (Unknown)
  
 
@@ -170,4 +172,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.427   0.041   0.556 
+  0.399   0.080   0.443 
