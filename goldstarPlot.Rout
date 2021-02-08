@@ -22,48 +22,35 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Sun Feb  7 11:12:10 2021 
+   Today is Mon Feb  8 16:57:45 2021 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
- 8.9  2888     2 mvisser  dunst
- 8.4  2556     4 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 8.0  2942     4 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 6.8 15447     5 mvisser  /usr/lib/firefox/firefox
- 5.5 10914     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 27 -isForBrowser -prefsLen 14816 -prefMapSize 248034 -parentBuildID 20210118153634 -appdir /usr/lib/firefox/browser 15447 true tab
- 4.5 25118     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 50 -isForBrowser -prefsLen 14684 -prefMapSize 248034 -parentBuildID 20210118153634 -appdir /usr/lib/firefox/browser 15447 true tab
-40.8  9533     1 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 2.8  8465     1 mvisser  htop
- 2.1  5504     4 mvisser  clementine
- 1.9 10861     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 26 -isForBrowser -prefsLen 14816 -prefMapSize 248034 -parentBuildID 20210118153634 -appdir /usr/lib/firefox/browser 15447 true tab
-12.9 26094     7 mvisser  /opt/zoom/zoom zoommtg://us02web.zoom.us/join?action=join&confno=86544776609&pwd=Q3czRUtadTlaUVhjM0xtcXJId1YvZz09&zc=0&mcv=0.92.11227.0929&confid=dXNzPWM3OHh1Ymo3RGpkcGV0US14S1BuNjFpMGV0a01pSHpmM2hPd3oyT25zZmxWbDRjZnhpT2F5SlRtSk1sWC1yRFJ0US1RX2lobmNlR015X21sWFFwTHFheU93b25fU3VUMS5Ja0dsWjNoSEQwbTZjQjJfJnRpZD0zNzAwMGM3ZTc3OWY0NTA0YWFhZDliNDk1YjY2MWQyOA%3D%3D&browser=firefox&t=1612451156249
- 1.2  2885     4 mvisser  compton -b
- 1.1 20131     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 48 -isForBrowser -prefsLen 14863 -prefMapSize 248034 -parentBuildID 20210118153634 -appdir /usr/lib/firefox/browser 15447 true tab
+ 9.4  2942     3 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 7.4  2556     7 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 7.3  2888     4 mvisser  dunst
+ 7.2 15447     6 mvisser  /usr/lib/firefox/firefox
+ 5.7 10914     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 27 -isForBrowser -prefsLen 14816 -prefMapSize 248034 -parentBuildID 20210118153634 -appdir /usr/lib/firefox/browser 15447 true tab
+43.9  9533     5 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 3.2 10861     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 26 -isForBrowser -prefsLen 14816 -prefMapSize 248034 -parentBuildID 20210118153634 -appdir /usr/lib/firefox/browser 15447 true tab
+ 2.8  8465     7 mvisser  htop
+ 1.7  5504     3 mvisser  clementine
+ 1.5 19586     4 mvisser  /usr/bin/python3 /usr/bin/blueman-manager
+14.0 26094     4 mvisser  /opt/zoom/zoom zoommtg://us02web.zoom.us/join?action=join&confno=86544776609&pwd=Q3czRUtadTlaUVhjM0xtcXJId1YvZz09&zc=0&mcv=0.92.11227.0929&confid=dXNzPWM3OHh1Ymo3RGpkcGV0US14S1BuNjFpMGV0a01pSHpmM2hPd3oyT25zZmxWbDRjZnhpT2F5SlRtSk1sWC1yRFJ0US1RX2lobmNlR015X21sWFFwTHFheU93b25fU3VUMS5Ja0dsWjNoSEQwbTZjQjJfJnRpZD0zNzAwMGM3ZTc3OWY0NTA0YWFhZDliNDk1YjY2MWQyOA%3D%3D&browser=firefox&t=1612451156249
+ 1.3 20131     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 48 -isForBrowser -prefsLen 14863 -prefMapSize 248034 -parentBuildID 20210118153634 -appdir /usr/lib/firefox/browser 15447 true tab
+ 1.1  2885     6 mvisser  compton -b
+ 1.1 25118     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 50 -isForBrowser -prefsLen 14684 -prefMapSize 248034 -parentBuildID 20210118153634 -appdir /usr/lib/firefox/browser 15447 true tab
  0.7 15636     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 6792 -prefMapSize 248034 -parentBuildID 20210118153634 -appdir /usr/lib/firefox/browser 15447 true tab
- 0.6  5769     4 mvisser  /usr/lib/virtualbox/VBoxSVC --auto-shutdown
 
- _________________________________________
-/ Mystery                                 \
-|                                         |
-| Looked at but cannot be seen - it is    |
-| beneath form; Listened to but cannot be |
-| heard - it is beneath sound; Held but   |
-| cannot be touched - it is beneath       |
-| feeling; These depthless things evade   |
-| definition, And blend into a single     |
-| mystery. In its rising there is no      |
-| light, In its falling there is no       |
-| darkness, A continuous thread beyond    |
-| description, Lining what does not       |
-| exist; Its form formless, Its image     |
-| nothing, Its name silence; Follow it,   |
-| it has no back, Meet it, it has no      |
-| face. Attend the present to deal with   |
-| the past; Thus you grasp the continuity |
-| of the Way, Which is its essence.       |
-|                                         |
-\ -- Lao Tse, "Tao Te Ching"              /
- -----------------------------------------
+ ________________________________________
+/ I'd be a poorer man if I'd never seen  \
+| an eagle fly.                          |
+|                                        |
+| -- John Denver                         |
+|                                        |
+| [I saw an eagle fly once. Fortunately, |
+\ I had my eagle fly swatter handy. Ed.] /
+ ----------------------------------------
    \
     \
         .--.
@@ -76,9 +63,10 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- This instant, then, think yourself worthy of living as a realized human
-being. Let whatever appears to be the best be to you an inviolable law.
-       (Epictetus)
+   -- "I have often wondered how it is that every man loves himself more than
+all the rest of men, but yet sets less value on his own opinion of himself than
+on the opinion of others."
+       (Marcus Aurelius)
  
 
 > ################################################################################
@@ -188,4 +176,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.430   0.136   0.706 
+  0.506   0.108   0.758 
