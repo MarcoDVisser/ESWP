@@ -22,33 +22,33 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Thu Feb 11 14:47:30 2021 
+   Today is Wed Mar  3 10:26:34 2021 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
- 8.3  2942     5 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 7.5 15447     0 mvisser  /usr/lib/firefox/firefox
- 6.5 11813     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 9139 -prefMapSize 250385 -parentBuildID 20210204182252 -appdir /usr/lib/firefox/browser 15447 true tab
- 6.4  2556     7 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
-55.8  8922     3 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 5.4  4945     3 mvisser  pavucontrol
- 5.2  2888     7 mvisser  dunst
- 3.6 10914     0 mvisser  [Web Content] <defunct>
- 2.9  8465     4 mvisser  htop
- 2.5 10861     1 mvisser  [Web Content] <defunct>
- 1.3 12008     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 9210 -prefMapSize 250385 -parentBuildID 20210204182252 -appdir /usr/lib/firefox/browser 15447 true tab
- 1.2  2885     5 mvisser  compton -b
- 0.9 19586     6 mvisser  /usr/bin/python3 /usr/bin/blueman-manager
- 0.8 20131     2 mvisser  [Web Content] <defunct>
- 0.8 17528     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 14 -isForBrowser -prefsLen 12343 -prefMapSize 250385 -parentBuildID 20210204182252 -appdir /usr/lib/firefox/browser 15447 true tab
+ 8.2  2554     7 mvisser  /usr/lib/firefox/firefox
+ 6.9 12515     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 9037 -prefMapSize 250533 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 2554 true tab
+67.5 14461     1 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 5.9  2216     5 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 5.7  2944     0 mvisser  [Web Content] <defunct>
+ 3.9 12430     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 7160 -prefMapSize 250533 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 2554 true tab
+ 3.6 17987     3 mvisser  [Web Content] <defunct>
+ 3.3  1215     2 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
+ 3.0 11349     0 mvisser  htop
+ 2.8  1807     1 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 1.7  7543     5 mvisser  [Web Content] <defunct>
+ 1.4  2996     3 mvisser  [Web Content] <defunct>
+ 1.1 12572     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 9037 -prefMapSize 250533 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 2554 true tab
+ 1.0  2153     3 mvisser  compton -b
+ 0.9 13550     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 18 -isForBrowser -prefsLen 9191 -prefMapSize 250533 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 2554 true tab
 
- ________________________________________
-/ A man of genius makes no mistakes. His \
-| errors are volitional and are the      |
-| portals of discovery.                  |
-|                                        |
-\ -- James Joyce, "Ulysses"              /
- ----------------------------------------
+ _________________________________________
+/ There are certain things men must do to \
+| remain men.                             |
+|                                         |
+| -- Kirk, "The Ultimate Computer",       |
+\ stardate 4929.4                         /
+ -----------------------------------------
    \
     \
         .--.
@@ -61,10 +61,9 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- "I have often wondered how it is that every man loves himself more than
-all the rest of men, but yet sets less value on his own opinion of himself than
-on the opinion of others."
-       (Marcus Aurelius)
+   -- If thy deeds be noble, let all men know them; if they be base, what
+matters it that no one else knows them, since they are known to thee?
+       (Unknown)
  
 
 > ################################################################################
@@ -174,4 +173,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.434   0.065   0.521 
+  0.425   0.076   0.592 
