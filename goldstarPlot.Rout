@@ -22,34 +22,35 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Fri Mar 26 15:41:00 2021 
+   Today is Fri Mar 26 15:42:23 2021 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
- 6.7  4353     7 mvisser  /usr/lib/firefox/firefox
- 6.7 29192     2 mvisser  clementine
-49.1  4600     2 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 3.8  3482     7 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 6.7  4353     1 mvisser  /usr/lib/firefox/firefox
+ 6.7 29192     1 mvisser  clementine
+49.0  4600     1 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 3.8  3482     4 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
  3.4  5645     5 mvisser  [Web Content] <defunct>
- 3.2 31997     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 7096 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
+ 3.2 31997     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 7096 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
  3.1  4668     0 mvisser  [Web Content] <defunct>
  2.9  2856     4 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 2.7  5738     6 mvisser  /usr/lib/R/bin/exec/R
- 2.1 32318     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 8645 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
- 1.9 12707     3 mvisser  htop
+ 2.4  5738     6 mvisser  /usr/lib/R/bin/exec/R
+ 2.1 32318     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 8645 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
+ 1.9 12707     5 mvisser  htop
  1.1  4598     5 mvisser  [Web Content] <defunct>
- 1.1 29252     1 mvisser  /usr/bin/python3 /usr/bin/blueman-manager
- 0.9 32281     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 8645 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
+ 1.1 29252     3 mvisser  /usr/bin/python3 /usr/bin/blueman-manager
+ 0.9 32281     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 8645 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
  0.7 11671     5 mvisser  [Web Content] <defunct>
 
- _________________________________________
-/ The most costly of all follies is to    \
-| believe passionately in the palpably    |
-| not true. It is the chief occupation of |
-| mankind.                                |
-|                                         |
-\ -- H. L. Mencken                        /
- -----------------------------------------
+ ________________________________________
+/ My religion consists of a humble       \
+| admiration of the illimitable superior |
+| spirit who reveals himself in the      |
+| slight details we are able to perceive |
+| with our frail and feeble mind.        |
+|                                        |
+\ -- Albert Einstein                     /
+ ----------------------------------------
    \
     \
         .--.
@@ -62,9 +63,8 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- A stomach which can wait patiently, and endure rough treatment, is an
-important condition of liberty.
-       (Unknown)
+   -- The happiness of your life depends upon the quality of your thoughts.
+       (Marcus Aurelius)
  
 
 > ################################################################################
@@ -174,4 +174,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.430   0.053   0.445 
+  0.411   0.067   0.440 
