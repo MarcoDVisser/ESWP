@@ -22,33 +22,29 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Wed Mar  3 10:26:34 2021 
+   Today is Fri Mar 26 15:38:02 2021 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
- 8.2  2554     7 mvisser  /usr/lib/firefox/firefox
- 6.9 12515     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 9037 -prefMapSize 250533 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 2554 true tab
-67.5 14461     1 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 5.9  2216     5 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 5.7  2944     0 mvisser  [Web Content] <defunct>
- 3.9 12430     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 7160 -prefMapSize 250533 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 2554 true tab
- 3.6 17987     3 mvisser  [Web Content] <defunct>
- 3.3  1215     2 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
- 3.0 11349     0 mvisser  htop
- 2.8  1807     1 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 1.7  7543     5 mvisser  [Web Content] <defunct>
- 1.4  2996     3 mvisser  [Web Content] <defunct>
- 1.1 12572     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 9037 -prefMapSize 250533 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 2554 true tab
- 1.0  2153     3 mvisser  compton -b
- 0.9 13550     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 18 -isForBrowser -prefsLen 9191 -prefMapSize 250533 -parentBuildID 20210222142601 -appdir /usr/lib/firefox/browser 2554 true tab
+ 6.8 29192     2 mvisser  clementine
+ 6.7  4353     2 mvisser  /usr/lib/firefox/firefox
+49.5  4600     3 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 3.8  3482     6 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 3.5  5738     6 mvisser  /usr/lib/R/bin/exec/R
+ 3.4  5645     5 mvisser  [Web Content] <defunct>
+ 3.2 31997     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 7096 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
+ 3.1  4668     0 mvisser  [Web Content] <defunct>
+ 2.9  2856     3 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 2.1  6046     3 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
+ 2.1 32318     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 8645 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
+ 1.9 12707     1 mvisser  htop
+ 1.1  4598     5 mvisser  [Web Content] <defunct>
+ 1.1 29252     6 mvisser  /usr/bin/python3 /usr/bin/blueman-manager
+ 0.9 32281     4 mvisser  /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 8645 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
 
- _________________________________________
-/ There are certain things men must do to \
-| remain men.                             |
-|                                         |
-| -- Kirk, "The Ultimate Computer",       |
-\ stardate 4929.4                         /
- -----------------------------------------
+ ________________________
+< Send some filthy mail. >
+ ------------------------
    \
     \
         .--.
@@ -61,8 +57,7 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- If thy deeds be noble, let all men know them; if they be base, what
-matters it that no one else knows them, since they are known to thee?
+   -- There is no virtue more honorable to man than this, or more truly honored.
        (Unknown)
  
 
@@ -173,4 +168,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.425   0.076   0.592 
+  0.415   0.057   0.436 
