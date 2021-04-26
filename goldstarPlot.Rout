@@ -22,35 +22,32 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Fri Mar 26 15:42:23 2021 
+   Today is Mon Apr 26 21:03:37 2021 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
- 6.7  4353     1 mvisser  /usr/lib/firefox/firefox
- 6.7 29192     1 mvisser  clementine
-49.0  4600     1 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 3.8  3482     4 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 3.4  5645     5 mvisser  [Web Content] <defunct>
- 3.2 31997     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 7096 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
- 3.1  4668     0 mvisser  [Web Content] <defunct>
- 2.9  2856     4 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 2.4  5738     6 mvisser  /usr/lib/R/bin/exec/R
- 2.1 32318     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 8645 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
- 1.9 12707     5 mvisser  htop
- 1.1  4598     5 mvisser  [Web Content] <defunct>
- 1.1 29252     3 mvisser  /usr/bin/python3 /usr/bin/blueman-manager
- 0.9 32281     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 8645 -prefMapSize 251214 -parentBuildID 20210310152336 -appdir /usr/lib/firefox/browser 4353 true tab
- 0.7 11671     5 mvisser  [Web Content] <defunct>
+67.3 18438     5 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 6.5  1839     7 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 6.3  2811     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 7330 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
+ 5.5 20447     2 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
+ 4.8  2235     1 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 4.1  3015     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 7448 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
+ 3.0 20501     2 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
+ 2.1  3075     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 7448 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
+ 1.4  2661     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6251 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
+13.9  4196     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 7507 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
+13.8  2510     0 mvisser  /usr/lib/firefox/firefox
+ 1.2  2183     2 mvisser  compton -b
+ 1.0 13161     2 mvisser  /usr/lib/R/bin/exec/R
+ 0.8  2729     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 7110 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
+ 0.6  2197     4 mvisser  /home/mvisser/.dropbox-dist/dropbox-lnx.x86_64-120.4.4598/dropbox
 
- ________________________________________
-/ My religion consists of a humble       \
-| admiration of the illimitable superior |
-| spirit who reveals himself in the      |
-| slight details we are able to perceive |
-| with our frail and feeble mind.        |
-|                                        |
-\ -- Albert Einstein                     /
- ----------------------------------------
+ ____________________________________
+/ He knew the tavernes well in every \
+| toun.                              |
+|                                    |
+\ -- Geoffrey Chaucer                /
+ ------------------------------------
    \
     \
         .--.
@@ -63,8 +60,8 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- The happiness of your life depends upon the quality of your thoughts.
-       (Marcus Aurelius)
+   -- When you perform any action, remind yourself of what nature the action is.
+       (Epictetus)
  
 
 > ################################################################################
@@ -174,4 +171,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.411   0.067   0.440 
+  0.414   0.062   0.442 
