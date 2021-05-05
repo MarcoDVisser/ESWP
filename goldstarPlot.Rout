@@ -22,31 +22,31 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Mon Apr 26 21:03:37 2021 
+   Today is Wed May  5 12:09:38 2021 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
-67.3 18438     5 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
- 6.5  1839     7 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 6.3  2811     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 7330 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
- 5.5 20447     2 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
- 4.8  2235     1 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 4.1  3015     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 7448 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
- 3.0 20501     2 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
- 2.1  3075     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 7448 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
- 1.4  2661     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6251 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
-13.9  4196     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 7507 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
-13.8  2510     0 mvisser  /usr/lib/firefox/firefox
- 1.2  2183     2 mvisser  compton -b
- 1.0 13161     2 mvisser  /usr/lib/R/bin/exec/R
- 0.8  2729     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 7110 -prefMapSize 252830 -parentBuildID 20210318103112 -appdir /usr/lib/firefox/browser 2510 true tab
- 0.6  2197     4 mvisser  /home/mvisser/.dropbox-dist/dropbox-lnx.x86_64-120.4.4598/dropbox
+98.5  4236     6 mvisser  /usr/lib/R/bin/exec/R
+ 9.2 14942     7 mvisser  /opt/zoom/zoom
+ 4.9  2395     0 mvisser  /usr/lib/firefox/firefox
+ 3.4  1774     7 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 3.3  2844     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 5951 -prefMapSize 253316 -parentBuildID 20210415204500 -appdir /usr/lib/firefox/browser 2395 true tab
+ 3.2  2191     3 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+ 2.8  2592     7 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 5838 -prefMapSize 253316 -parentBuildID 20210415204500 -appdir /usr/lib/firefox/browser 2395 true tab
+ 1.1  2502     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 96 -prefMapSize 253316 -parentBuildID 20210415204500 -appdir /usr/lib/firefox/browser 2395 true tab
+ 1.0 27633     1 root     [kworker/u17:0-u]
+ 0.9  7257     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 14 -isForBrowser -prefsLen 8881 -prefMapSize 253316 -parentBuildID 20210415204500 -appdir /usr/lib/firefox/browser 2395 true tab
+ 0.7  2537     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 5010 -prefMapSize 253316 -parentBuildID 20210415204500 -appdir /usr/lib/firefox/browser 2395 true tab
+ 0.7 13853     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 27 -isForBrowser -prefsLen 10403 -prefMapSize 253316 -parentBuildID 20210415204500 -appdir /usr/lib/firefox/browser 2395 true tab
+ 0.6 27532     3 mvisser  /usr/lib/gnome-terminal/gnome-terminal-server
+ 0.6  2133     5 mvisser  compton -b
+ 0.5 27429     1 root     [kworker/u17:1-r]
 
  ____________________________________
-/ He knew the tavernes well in every \
-| toun.                              |
+/ Happiness is good health and a bad \
+| memory.                            |
 |                                    |
-\ -- Geoffrey Chaucer                /
+\ -- Ingrid Bergman                  /
  ------------------------------------
    \
     \
@@ -60,8 +60,8 @@ Type 'q()' to quit R.
 
 Loading required package: utils
 
-   -- When you perform any action, remind yourself of what nature the action is.
-       (Epictetus)
+   -- "The happiness of your life depends upon the quality of your thoughts."
+       (Marcus Aurelius)
  
 
 > ################################################################################
@@ -171,4 +171,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.414   0.062   0.442 
+  0.416   0.069   0.466 
