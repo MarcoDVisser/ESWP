@@ -22,29 +22,30 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Tue Jun 29 14:31:27 2021 
+   Today is Tue Jun 29 14:32:07 2021 
 
    Please consider that, I am currently executing the following
 %CPU   PID CPUID USER     COMMAND
-76.8  9965     1 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+76.7  9965     0 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
  6.1  2748     2 mvisser  /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=7163365148388893824,8527137016470311176,131072 --enable-features=WebComponentsV0Enabled --disable-features=PictureInPicture,SpareRendererForSitePerProcess --lang=en-US --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --no-sandbox --no-zygote --preload=/usr/share/teams/resources/app.asar/lib/pluginhost/preload.js --background-color=#fff --enable-websql --electron-shared-settings=eyJjci5jb21wYW55IjoiTWljcm9zb2Z0IiwiY3IuZHVtcHMiOiIvdG1wL2NvbS5taWNyb3NvZnQudGVhbXMubGludXggQ3Jhc2hlcyIsImNyLmVuYWJ dWUsImNyLnByb2R1Y3QiOiJjb20ubWljcm9zb2Z0LnRlYW1zLmxpbnV4IiwiY3Iuc2Vzc2lvbiI6ImRlc2t0b3AtZjUyOTQ0OTItN2FjYy00MDRmLThjM2QtY2Q2NzNiYTYyYWQ0IiwiY3IudXJsIjoiYXBwY2VudGVyOi8vZ2VuZXJpYz9haWQ9NTA0OTNjODktOGMxZi00ZmU1LTlhMTgtM2Y0YjQ5YmZlNmJhJmlpZD0zMjU3NWRkM2Q4NWVlNGM1NjcxNDAzYmMyNGMxODk5ODI4MTk4YjQ0ZmJiYmVhODMxNTU3MWNmOWRjMzI5N2YzJnVpZD0iLCJjci52ZXJzaW9uIjoiMS40LjAwLjQ4NTUifQ== --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=14 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --msteams-process-type=pluginHost
- 6.0 10373     2 mvisser  /usr/lib/firefox/firefox
+ 6.1 10373     5 mvisser  /usr/lib/firefox/firefox
  4.4  2258     1 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 4.2 19184     1 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
- 4.0  2700     4 mvisser  /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=7163365148388893824,8527137016470311176,131072 --enable-features=WebComponentsV0Enabled --disable-features=PictureInPicture,SpareRendererForSitePerProcess --lang=en-US --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/teams/resources/app.asar/lib/renderer/preload.js --background-color=#fff --enable-websql --ms-allow-videorenderer --electron-shared-settings=eyJjci5jb21wYW55IjoiTWljcm9zb2Z0IiwiY3IuZHVtcHMiOiIvdG1wL2NvbS5taWNyb3NvZnQudGV dXggQ3Jhc2hlcyIsImNyLmVuYWJsZWQiOnRydWUsImNyLnByb2R1Y3QiOiJjb20ubWljcm9zb2Z0LnRlYW1zLmxpbnV4IiwiY3Iuc2Vzc2lvbiI6ImRlc2t0b3AtZjUyOTQ0OTItN2FjYy00MDRmLThjM2QtY2Q2NzNiYTYyYWQ0IiwiY3IudXJsIjoiYXBwY2VudGVyOi8vZ2VuZXJpYz9haWQ9NTA0OTNjODktOGMxZi00ZmU1LTlhMTgtM2Y0YjQ5YmZlNmJhJmlpZD0zMjU3NWRkM2Q4NWVlNGM1NjcxNDAzYmMyNGMxODk5ODI4MTk4YjQ0ZmJiYmVhODMxNTU3MWNmOWRjMzI5N2YzJnVpZD0iLCJjci52ZXJzaW9uIjoiMS40LjAwLjQ4NTUifQ== --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=11 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --msteams-process-type=mainWindow
- 3.5  1848     6 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 2.5 11067     1 mvisser  htop
- 2.5 10781     6 mvisser  /usr/lib/firefox/plugin-container /home/mvisser/.mozilla/firefox/vrb1vcuu.default/gmp-widevinecdm/4.10.2209.1 10373 true gmplugin
- 2.4  9738     3 mvisser  htop
- 2.1 10658     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 5887 -prefMapSize 256540 -parentBuildID 20210622155641 -appdir /usr/lib/firefox/browser 10373 true tab
-14.6 10487     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 146 -prefMapSize 256540 -parentBuildID 20210622155641 -appdir /usr/lib/firefox/browser 10373 true tab
- 1.2 11483     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 7481 -prefMapSize 256540 -parentBuildID 20210622155641 -appdir /usr/lib/firefox/browser 10373 true tab
+ 4.0  2700     2 mvisser  /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=7163365148388893824,8527137016470311176,131072 --enable-features=WebComponentsV0Enabled --disable-features=PictureInPicture,SpareRendererForSitePerProcess --lang=en-US --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/teams/resources/app.asar/lib/renderer/preload.js --background-color=#fff --enable-websql --ms-allow-videorenderer --electron-shared-settings=eyJjci5jb21wYW55IjoiTWljcm9zb2Z0IiwiY3IuZHVtcHMiOiIvdG1wL2NvbS5taWNyb3NvZnQudGV dXggQ3Jhc2hlcyIsImNyLmVuYWJsZWQiOnRydWUsImNyLnByb2R1Y3QiOiJjb20ubWljcm9zb2Z0LnRlYW1zLmxpbnV4IiwiY3Iuc2Vzc2lvbiI6ImRlc2t0b3AtZjUyOTQ0OTItN2FjYy00MDRmLThjM2QtY2Q2NzNiYTYyYWQ0IiwiY3IudXJsIjoiYXBwY2VudGVyOi8vZ2VuZXJpYz9haWQ9NTA0OTNjODktOGMxZi00ZmU1LTlhMTgtM2Y0YjQ5YmZlNmJhJmlpZD0zMjU3NWRkM2Q4NWVlNGM1NjcxNDAzYmMyNGMxODk5ODI4MTk4YjQ0ZmJiYmVhODMxNTU3MWNmOWRjMzI5N2YzJnVpZD0iLCJjci52ZXJzaW9uIjoiMS40LjAwLjQ4NTUifQ== --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=11 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --msteams-process-type=mainWindow
+ 3.8 19184     1 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
+ 3.5  1848     3 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 2.5 11067     4 mvisser  htop
+ 2.5 10781     4 mvisser  /usr/lib/firefox/plugin-container /home/mvisser/.mozilla/firefox/vrb1vcuu.default/gmp-widevinecdm/4.10.2209.1 10373 true gmplugin
+ 2.4  9738     2 mvisser  htop
+ 2.1 10658     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 5887 -prefMapSize 256540 -parentBuildID 20210622155641 -appdir /usr/lib/firefox/browser 10373 true tab
+14.5 10487     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 146 -prefMapSize 256540 -parentBuildID 20210622155641 -appdir /usr/lib/firefox/browser 10373 true tab
+ 1.2 11483     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 7481 -prefMapSize 256540 -parentBuildID 20210622155641 -appdir /usr/lib/firefox/browser 10373 true tab
  1.1  2576     1 mvisser  /usr/share/teams/teams --disable-namespace-sandbox --disable-setuid-sandbox
- 1.1 10579     0 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 5059 -prefMapSize 256540 -parentBuildID 20210622155641 -appdir /usr/lib/firefox/browser 10373 true tab
+ 1.1 10579     2 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 5059 -prefMapSize 256540 -parentBuildID 20210622155641 -appdir /usr/lib/firefox/browser 10373 true tab
 
- ________________________________
-< Air is water with holes in it. >
- --------------------------------
+ _________________________________________
+/ As a goatherd learns his trade by goat, \
+\ so a writer learns his trade by wrote.  /
+ -----------------------------------------
    \
     \
         .--.
@@ -114,5 +115,59 @@ tell you; it must be the faculty that makes use of such impressions , reason.
 +     }
 +     }
 + }
-Error in if (tmp > 300) { : missing value where TRUE/FALSE needed
-Execution halted
+> 
+>    
+> png("./streakFig.png",width=900,height=600)
+> 
+> layout(matrix(1:60,nrow=6,ncol=10,byrow=TRUE))
+> 
+> 
+> par(mar=c(0,0,1,0),xpd=FALSE)
+> for(i in 1:60){
++ 
++     if(i%in%wks){
++ 
++         
++         plot(0,0,ylim=c(-1,1),xlim=c(-1,1),fg="white",xaxt="n",yaxt="n",
++              xlab="",ylab="",main=paste0("Week ",weeks[i]),col="white")
++ 
++         rect(par("usr")[1],par("usr")[3],par("usr")[2],par("usr")[4],
++              col=ifelse(weeks[i]==thisweek,"lightcyan","white"))
++         
++         if(hits[i]){
++ 
++             symbols(0,0,fg=ifelse(star[i]=="gold2","grey60","gold4"),bg=star[i]
++                    ,stars=rbind(rep(c(2,1,1),5)),add=TRUE,
++                     inches=.35)
++         } else {
++ 
++ 
++             points(0,0,col="red",pch=4,cex=5)
++ 
++         }
++     } else {
++ 
++              plot(0,0,ylim=c(-1,1),xlim=c(-1,1),fg="white",xaxt="n",yaxt="n",
++                   xlab="",ylab="",main="",col="white")
++ 
++ 
++     
++     if(i==55) {
++ 
++         par(xpd=NA)
++ 
++         legend("top",col=c("goldenrod4","grey87","gold2"),
++                     pch=16,legend=c("> 300 words","> 1000 words","> 2000 words")
++                    ,bty="n",cex=2.5) }
++ 
++     }
++ }
+>         par(xpd=TRUE)
+> 
+> dev.off()
+null device 
+          1 
+> 
+> proc.time()
+   user  system elapsed 
+  0.422   0.053   0.440 
