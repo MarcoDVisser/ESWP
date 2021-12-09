@@ -1,0 +1,75 @@
+
+R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+Copyright (C) 2020 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+
+   Welcome to R!
+
+   Today is Fri Dec  4 17:16:27 2020 
+
+   Please consider that, I am currently executing the following
+%CPU   PID CPUID USER     COMMAND
+ 5.9 14733     3 mvisser  /usr/lib/libreoffice/program/soffice.bin --calc file:///home/mvisser/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv --splash-pipe=5
+ 5.8 19584     0 mvisser  /usr/lib/firefox/firefox
+ 5.6  2407     2 mvisser  /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess --service-pipe-token=1550665996728145828 --lang=en-US --app-path=/usr/share/teams/resources/app.asar --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) MicrosoftTeams-Preview/1.3.00.16851 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36 --node-integration=false --webview-tag=false --no-sandbox --preload=/usr/share/teams/resources/app.asar/lib/pluginhost/preload.js --disable-remote-module --background-color=#fff --electron-shared-settings=eyJjci5jb21wYW55IjoiTWljcm9zb2Z0IiwiY3IuZHVtcHMiOiIvdG1wL2NvbS5taWNyb3NvZnQudGVhbXMubGludXggQ3Jhc2hlcyIsImNyLmVuYWJsZWQiOnRydWUsImNyLnByb2R1Y3QiOiJjb20ubWljcm9zb2Z0LnRlYW1zLmxpbnV4IiwiY3Iuc2Vzc2lvbiI6ImRlc2t0b3AtYTI2NDYyNzgtNGFmMy00NTQzLTlkM2UtMTYzYzU0NGEwMzFmIiwiY3IudXJsIjoiaHR0cHM6Ly9yaW5rLmhvY2tleWFwcC5uZXQvYXBpLzIvYXBwcy81MDQ5M2M4OThjMWY0ZmU1OWExODNmNGI0OWJmZTZiYS9jcmFzaGVzL3VwbG9hZCIsImNyLnZlcnNpb24iOiIxLjMuMDAuMTY4NTEifQ== --num-raster-threads=4 --
+ 4.8 20285     1 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 8781 -prefMapSize 245626 -parentBuildID 20201112153044 -appdir /usr/lib/firefox/browser 19584 true tab
+44.9 10278     3 mvisser  /usr/lib/R/bin/exec/R
+44.1 27691     4 mvisser  /usr/lib/virtualbox/VirtualBox --comment Win10 --startvm 4a73ddf5-568d-469f-89d0-4cf18f4c41ec --no-startvm-errormsgbox
+ 2.8  2232     7 mvisser  /usr/share/teams/teams
+ 2.8 12050     0 mvisser  htop
+ 2.5  2352     6 mvisser  /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess --service-pipe-token=1518479828335064519 --lang=en-US --app-path=/usr/share/teams/resources/app.asar --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) MicrosoftTeams-Preview/1.3.00.16851 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36 --node-integration=false --webview-tag=true --no-sandbox --preload=/usr/share/teams/resources/app.asar/lib/renderer/preload.js --disable-remote-module --background-color=#fff --electron-shared-settings=eyJjci5jb21wYW55IjoiTWljcm9zb2Z0IiwiY3IuZHVtcHMiOiIvdG1wL2NvbS5taWNyb3NvZnQudGVhbXMubGludXggQ3Jhc2hlcyIsImNyLmVuYWJsZWQiOnRydWUsImNyLnByb2R1Y3QiOiJjb20ubWljcm9zb2Z0LnRlYW1zLmxpbnV4IiwiY3Iuc2Vzc2lvbiI6ImRlc2t0b3AtYTI2NDYyNzgtNGFmMy00NTQzLTlkM2UtMTYzYzU0NGEwMzFmIiwiY3IudXJsIjoiaHR0cHM6Ly9yaW5rLmhvY2tleWFwcC5uZXQvYXBpLzIvYXBwcy81MDQ5M2M4OThjMWY0ZmU1OWExODNmNGI0OWJmZTZiYS9jcmFzaGVzL3VwbG9hZCIsImNyLnZlcnNpb24iOiIxLjMuMDAuMTY4NTEifQ== --num-raster-threads=4 --ena
+ 2.4 19858     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 8603 -prefMapSize 245626 -parentBuildID 20201112153044 -appdir /usr/lib/firefox/browser 19584 true tab
+ 1.7  5087     4 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
+15.6 26876     6 mvisser  /opt/zoom/zoom
+ 1.5 10465     4 mvisser  emacs
+ 1.4  4838     5 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 1.1  6573     7 mvisser  htop
+
+ _________________________________________
+/ Thus spake the master programmer:       \
+|                                         |
+| "A well-written program is its own      |
+| heaven; a poorly-written program is its |
+| own hell."                              |
+|                                         |
+| -- Geoffrey James, "The Tao of          |
+\ Programming"                            /
+ -----------------------------------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
+Loading required package: utils
+
+   -- No one who is a lover of money, pleasure, or fame, is also a lover of
+mankind, but only he who is a lover of virtue.
+       (Unknown)
+ 
+
+> 
+> proc.time()
+   user  system elapsed 
+  0.294   0.099   0.460 
