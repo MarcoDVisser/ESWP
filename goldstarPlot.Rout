@@ -1,6 +1,6 @@
 
-R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
-Copyright (C) 2020 The R Foundation for Statistical Computing
+R version 4.1.2 (2021-11-01) -- "Bird Hippie"
+Copyright (C) 2021 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
@@ -22,55 +22,32 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Wed Nov 17 11:26:22 2021 
+   Today is Fri Feb 18 17:33:21 2022 
 
    Please consider that, I am currently executing the following
-%CPU   PID CPUID USER     COMMAND
- 9.4  2558     1 mvisser  /usr/lib/firefox/firefox
- 7.3  2850     5 mvisser  /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 5607 -prefMapSize 262248 -jsInit 278680 -parentBuildID 20211028161635 -appdir /usr/lib/firefox/browser 2558 true tab
- 5.2  2282     3 mvisser  /usr/bin/pulseaudio --start --log-target=syslog
- 3.2  1876     5 root     /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 2.1  2883     2 mvisser  /usr/lib/chromium-browser/chromium-browser --enable-pinch --enable-crashpad
- 1.7  3733     4 mvisser  /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=18155313091634196720,510197198018079250,131072 --enable-features=ContextBridgeMutability,WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=6d6fe8fe-dc21-483c-b50e-ac6e9527fd42,no_channel --global-crash-keys=6d6fe8fe-dc21-483c-b50e-ac6e9527fd42,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.26453 --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --webview-tag --enable-sandbox --native-window-open --preload=/usr/share/teams/resources/app.asar/lib/renderer/preload.js --world-safe-execute-javascript --background-color=#fff --enable-spellcheck --enable-websql --ms-allow-videorenderer --disable-electron-site-instance-overrides --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100 --msteams-process-type=mainWindow
- 1.6  2926     1 mvisser  /usr/lib/chromium-browser/chromium-browser --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=15775970037911570369,1511215734010537476,131072 --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=2890 --enable-crash-reporter=,Built on Ubuntu , running on Ubuntu 18.04 --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --enable-crashpad
- 1.5  3215     3 mvisser  /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 6040 -prefMapSize 262248 -jsInit 278680 -parentBuildID 20211028161635 -appdir /usr/lib/firefox/browser 2558 true tab
- 1.4  3550     4 mvisser  /usr/lib/chromium-browser/chromium-browser --type=gpu-process --field-trial-handle=15775970037911570369,1511215734010537476,131072 --enable-crashpad --crashpad-handler-pid=2890 --enable-crash-reporter=,Built on Ubuntu , running on Ubuntu 18.04 --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
- 1.4  2768     6 mvisser  /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 231 -prefMapSize 262248 -jsInit 278680 -parentBuildID 20211028161635 -appdir /usr/lib/firefox/browser 2558 true tab
- 1.3  8932     1 mvisser  /usr/lib/chromium-browser/chromium-browser --type=renderer --enable-crashpad --crashpad-handler-pid=2890 --enable-crash-reporter=,Built on Ubuntu , running on Ubuntu 18.04 --display-capture-permissions-policy-allowed --origin-trial-disabled-features=CaptureHandle --change-stack-guard-on-fork=enable --field-trial-handle=15775970037911570369,1511215734010537476,131072 --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=92 --shared-files=v8_context_snapshot_data:100
- 1.3 27507     2 mvisser  /usr/lib/chromium-browser/chromium-browser --type=renderer --enable-crashpad --crashpad-handler-pid=2890 --enable-crash-reporter=,Built on Ubuntu , running on Ubuntu 18.04 --display-capture-permissions-policy-allowed --origin-trial-disabled-features=CaptureHandle --change-stack-guard-on-fork=enable --field-trial-handle=15775970037911570369,1511215734010537476,131072 --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=439 --shared-files=v8_context_snapshot_data:100
- 1.2  4070     3 mvisser  /usr/lib/chromium-browser/chromium-browser --type=renderer --enable-crashpad --crashpad-handler-pid=2890 --enable-crash-reporter=,Built on Ubuntu , running on Ubuntu 18.04 --display-capture-permissions-policy-allowed --origin-trial-disabled-features=CaptureHandle --change-stack-guard-on-fork=enable --field-trial-handle=15775970037911570369,1511215734010537476,131072 --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=490 --shared-files=v8_context_snapshot_data:100
- 1.1 17991     0 mvisser  /usr/lib/chromium-browser/chromium-browser --type=renderer --enable-crashpad --crashpad-handler-pid=2890 --enable-crash-reporter=,Built on Ubuntu , running on Ubuntu 18.04 --display-capture-permissions-policy-allowed --origin-trial-disabled-features=CaptureHandle --change-stack-guard-on-fork=enable --field-trial-handle=15775970037911570369,1511215734010537476,131072 --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=223 --shared-files=v8_context_snapshot_data:100
- 1.0  3870     0 mvisser  /usr/share/teams/teams --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --field-trial-handle=18155313091634196720,510197198018079250,131072 --enable-features=ContextBridgeMutability,WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=6d6fe8fe-dc21-483c-b50e-ac6e9527fd42,no_channel --global-crash-keys=6d6fe8fe-dc21-483c-b50e-ac6e9527fd42,no_channel,_companyName=Microsoft,_productName=com.microsoft.teams.linux,_version=1.4.00.26453 --ms-teams-less-cors=522133263 --app-path=/usr/share/teams/resources/app.asar --enable-sandbox --native-window-open --preload=/usr/share/teams/resources/app.asar/lib/renderer/experienceRenderer/preload_webview.js --background-color=#fff --guest-instance-id=4 --enable-blink-features --disable-blink-features --node-integration-in-subframes --enable-spellcheck --enable-websql --ms-allow-videorenderer --disable-electron-site-instance-overrides --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=12 --no-v8-untrusted-code-mitigations --sha
+%CPU     PID CPUID USER     COMMAND
+67.2    2360     0 vissermd /usr/lib/thunderbird/thunderbird
+ 4.3    1504     1 vissermd /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ 4.1    2979     9 vissermd /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 65 -prefMapSize 251732 -jsInitLen 279340 -parentBuildID 20220202182137 -appDir /usr/lib/firefox/browser 2878 true tab
+ 3.7    1739     6 vissermd /usr/bin/gnome-shell
+ 3.2    3238    14 vissermd /usr/lib/firefox/firefox -contentproc -parentBuildID 20220202182137 -prefsLen 5714 -prefMapSize 251732 -appDir /usr/lib/firefox/browser 2878 true rdd
+25.2    2878     9 vissermd /usr/lib/firefox/firefox https://docs.google.com/document/d/1VbGnpXfKzKw5xpgThByg7z4R13CAJh9q7b5-MhPCSv8/edit?usp=sharing_eip_m&ts=620f9558
+22.8    1602     3 vissermd /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 2.1    3984    10 vissermd /usr/lib/firefox/firefox -contentproc -childID 13 -isForBrowser -prefsLen 5761 -prefMapSize 251732 -jsInitLen 279340 -parentBuildID 20220202182137 -appDir /usr/lib/firefox/browser 2878 true tab
+ 2.0    6193     6 vissermd /home/vissermd/.dropbox-dist/dropbox-lnx.x86_64-142.4.4197/dropbox
+10.7    5273     2 vissermd /usr/lib/firefox/firefox -contentproc -childID 30 -isForBrowser -prefsLen 5915 -prefMapSize 251732 -jsInitLen 279340 -parentBuildID 20220202182137 -appDir /usr/lib/firefox/browser 2878 true tab
+ 0.6    4277    15 vissermd /usr/lib/libreoffice/program/soffice.bin --writer file:///home/vissermd/Dropbox/Backup/Work/Grants/Melina/SI-predoc/FINAL_proposal_melina_SI_submitted.docx
+ 0.4   15409    15 root     [kworker/u33:1-hci0]
+ 0.3    8752     5 root     [kworker/u33:2-hci0]
+ 0.3    4536    15 vissermd /usr/lib/firefox/firefox -contentproc -childID 17 -isForBrowser -prefsLen 5761 -prefMapSize 251732 -jsInitLen 279340 -parentBuildID 20220202182137 -appDir /usr/lib/firefox/browser 2878 true tab
+ 0.3    3431    14 vissermd /usr/bin/nautilus --gapplication-service
 
- _______________________________________
-/ If I had done everything I'm credited \
-| with, I'd be speaking to you from a   |
-| laboratory jar at Harvard.            |
-|                                       |
-| -- Frank Sinatra                      |
-|                                       |
-| AS USUAL, YOUR INFORMATION STINKS.    |
-|                                       |
-| -- Frank Sinatra, telegram to "Time"  |
-\ magazine                              /
- ---------------------------------------
-   \
-    \
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /'\_   _/`\
-    \___)=(___/
-
+sh: 1: cowsay: not found
+sh: 1: fortune: not found
 Loading required package: utils
-
-   -- Whether the slave have become so by conquest or by purchase, the master's
-title is bad.
-       (Unknown)
- 
-
+	 No Stoic Fortunes Installed 
+During startup - Warning message:
+In system("fortune | cowsay -f tux") : error in running command
 > ################################################################################
 > ## Writing Streak
 > ## Every week when you write
@@ -78,6 +55,9 @@ title is bad.
 > ## > 1000 words = silver star (write a paper section)
 > ## > 2000 words = gold star (write more than one paper section)
 > ################################################################################
+> 
+> ## calender manipulation
+> ## ./github_board.py -r ../ESWP -t ./templates/batman.tpl -e marco.d.visser@gmail.com -a center
 > 
 > setwd("~/Dropbox/Backup/Work/git/ESWP")
 > 
@@ -178,4 +158,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.407   0.064   0.434 
+  0.193   0.018   0.212 
