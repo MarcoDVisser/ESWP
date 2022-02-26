@@ -22,32 +22,47 @@ Type 'q()' to quit R.
 
    Welcome to R!
 
-   Today is Fri Feb 18 17:33:21 2022 
+   Today is Sat Feb 26 14:47:54 2022 
 
    Please consider that, I am currently executing the following
 %CPU     PID CPUID USER     COMMAND
-67.2    2360     0 vissermd /usr/lib/thunderbird/thunderbird
- 4.3    1504     1 vissermd /usr/bin/pulseaudio --daemonize=no --log-target=journal
- 4.1    2979     9 vissermd /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 65 -prefMapSize 251732 -jsInitLen 279340 -parentBuildID 20220202182137 -appDir /usr/lib/firefox/browser 2878 true tab
- 3.7    1739     6 vissermd /usr/bin/gnome-shell
- 3.2    3238    14 vissermd /usr/lib/firefox/firefox -contentproc -parentBuildID 20220202182137 -prefsLen 5714 -prefMapSize 251732 -appDir /usr/lib/firefox/browser 2878 true rdd
-25.2    2878     9 vissermd /usr/lib/firefox/firefox https://docs.google.com/document/d/1VbGnpXfKzKw5xpgThByg7z4R13CAJh9q7b5-MhPCSv8/edit?usp=sharing_eip_m&ts=620f9558
-22.8    1602     3 vissermd /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
- 2.1    3984    10 vissermd /usr/lib/firefox/firefox -contentproc -childID 13 -isForBrowser -prefsLen 5761 -prefMapSize 251732 -jsInitLen 279340 -parentBuildID 20220202182137 -appDir /usr/lib/firefox/browser 2878 true tab
- 2.0    6193     6 vissermd /home/vissermd/.dropbox-dist/dropbox-lnx.x86_64-142.4.4197/dropbox
-10.7    5273     2 vissermd /usr/lib/firefox/firefox -contentproc -childID 30 -isForBrowser -prefsLen 5915 -prefMapSize 251732 -jsInitLen 279340 -parentBuildID 20220202182137 -appDir /usr/lib/firefox/browser 2878 true tab
- 0.6    4277    15 vissermd /usr/lib/libreoffice/program/soffice.bin --writer file:///home/vissermd/Dropbox/Backup/Work/Grants/Melina/SI-predoc/FINAL_proposal_melina_SI_submitted.docx
- 0.4   15409    15 root     [kworker/u33:1-hci0]
- 0.3    8752     5 root     [kworker/u33:2-hci0]
- 0.3    4536    15 vissermd /usr/lib/firefox/firefox -contentproc -childID 17 -isForBrowser -prefsLen 5761 -prefMapSize 251732 -jsInitLen 279340 -parentBuildID 20220202182137 -appDir /usr/lib/firefox/browser 2878 true tab
- 0.3    3431    14 vissermd /usr/bin/nautilus --gapplication-service
+91.1   55444     0 vissermd /usr/lib/virtualbox/VirtualBoxVM --comment win10 --startvm b5985349-f601-4b00-b415-e3c16ec17237 --no-startvm-errormsgbox
+ 8.2    1921     6 vissermd polybar -r current
+ 6.5 1693816    15 vissermd nautilus --new-window
+ 5.6 1726286     2 vissermd /usr/lib/libreoffice/program/soffice.bin --calc file:///home/vissermd/Dropbox/Backup/Work/git/ESWP/StreakWeeklyWords.csv
+ 2.6 1780087     7 vissermd /usr/libexec/gnome-terminal-server
+ 1.7    1883    11 vissermd /home/vissermd/.dropbox-dist/dropbox-lnx.x86_64-142.4.4197/dropbox
+ 1.6     840     9 message+ /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 1.4    1659    14 vissermd /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 1.3    1896    10 vissermd picom --experimental-backends -b
+12.5    1748     6 vissermd /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 1.0    1976    13 vissermd /usr/bin/python3 /usr/local/bin/zscroll -l 20 --delay 0.1 --scroll-padding    --match-command /home/vissermd/scripts/get_spotify_status.sh --status --match-text Playing --scroll 1 --match-text Paused --scroll 0 --update-check true /home/vissermd/scripts/get_spotify_status.sh
+ 0.4     855     2 root     /usr/lib/policykit-1/polkitd --no-debug
+ 0.4 1693937     4 vissermd /usr/libexec/xdg-desktop-portal
+ 0.4    1653    11 vissermd /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ 0.3    8780    15 vissermd /usr/lib/virtualbox/VirtualBox
 
-sh: 1: cowsay: not found
-sh: 1: fortune: not found
+ ____________________________________
+/ Q: What do you call a blind        \
+| pre-historic animal? A:            |
+| Diyathinkhesaurus.                 |
+|                                    |
+| Q: What do you call a blind        |
+| pre-historic animal with a dog? A: |
+\ Diyathinkhesaurus Rex.             /
+ ------------------------------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
 Loading required package: utils
 	 No Stoic Fortunes Installed 
-During startup - Warning message:
-In system("fortune | cowsay -f tux") : error in running command
 > ################################################################################
 > ## Writing Streak
 > ## Every week when you write
@@ -158,4 +173,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.193   0.018   0.212 
+  0.248   0.046   0.348 
